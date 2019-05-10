@@ -1,17 +1,23 @@
 // Challenge 1 - Code Wars
 
-// Write a function printValidNumbers(num1, num2) that lets a user enter 2 numbers. 
-// Those numbers are considered min and max of a range with wich a list must be generated.
-// Ex (num1:5, num2: 10) => [5,6,7,8,9,10] Note that max number is included.
-// The program must return a list of numbers that accomplish the following sum property:
-// Ex 89 = (8)^1 + (9)^2 = 8 + 81 = 89 
-// Ex 135 = (1)^1 + (3)^2 + (5)^3 = 1 + 9 + 125 = 135
+/*
+    Write a function printValidNumbers(num1, num2) that lets a user enter 2 numbers. 
+    
+    Those numbers are considered min and max of a range with wich a list must be generated.
+    Ex (num1:5, num2: 10) => [5,6,7,8,9,10] Note that max number is included.
 
-// Expected
+    The program must return a list of numbers that accomplish the following sum property:
 
-// printValidNumbers(1,10) => [1,2,3,4,5,6,7,8,9]
-// printValidNumbers(20,50) => []
-// printValidNumbers(100,200) => [135,175]
+    Ex 89 = (8)^1 + (9)^2 = 8 + 81 = 89 
+    Ex 135 = (1)^1 + (3)^2 + (5)^3 = 1 + 9 + 125 = 135
+
+    Examples:
+
+    printValidNumbers(1,10) => [1,2,3,4,5,6,7,8,9]
+    printValidNumbers(20,50) => []
+    printValidNumbers(100,200) => [135,175]
+
+*/
 
 const generateRange = (min, max) => {
 
